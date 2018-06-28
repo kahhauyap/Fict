@@ -15,7 +15,7 @@ The user has the option to either manually input nutritional information for the
 # Nutritional Information
 https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163926.png
 
-After the user selects the correct dish, the Nutritionix API is used to return relevant caloric, and nutritional information. This information is then recorded in the SQLite database for caching for future query in order to avoid repeated calls to the API. The information is also saved to the daily food intake, updating the values on the Home page.
+After the user selects the correct dish, the Nutritionix API is used to return relevant caloric, and nutritional information. This information is then recorded in an SQLite database for caching for future query in order to avoid repeated calls to the API. The information is also saved to the daily food intake, updating the values on the Home page.
 
 # History
 
