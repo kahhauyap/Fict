@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kah.fict.Picture"
+    android:background="@drawable/bokehtable">
+
+
+    <ImageView
+        android:id="@+id/tableBackground"
+        android:layout_width="444dp"
+        android:layout_height="543dp"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bokehtable" />
+
+    <ImageView
+        android:id="@+id/whiteFilter"
+        android:layout_width="787dp"
+        android:layout_height="581dp"
+        android:alpha=".25"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@color/white" />
+
+    <ImageView
+        android:id="@+id/white"
+        android:layout_width="362dp"
+        android:layout_height="307dp"
+        android:background="@android:drawable/dialog_holo_dark_frame"
+        android:alpha=".8"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411"
+        app:srcCompat="@android:color/background_light" />
+
+    <ImageView
+        android:id="@+id/detective"
+        android:layout_width="226dp"
+        android:layout_height="208dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.435"
+        app:srcCompat="@drawable/detective" />
+
+    <ImageView
+        android:id="@+id/glass"
+        android:layout_width="117dp"
+        android:layout_height="102dp"
+        android:layout_marginEnd="128dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/detective"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.547"
+        app:srcCompat="@drawable/magnifying" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="392dp"
+        android:layout_height="559dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/greyblock" />
+
+    <ImageView
+        android:id="@+id/blackBar"
+        android:layout_width="486dp"
+        android:layout_height="44dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:alpha=".7"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/tableBackground"
+        app:srcCompat="@color/black" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:text="Take a picture and we'll tell you what it is!"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="17sp"
+
+        android:textStyle="bold|italic"
+        android:visibility="visible"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" /><![CDATA[/>
+
+    ]]>
+
+    <Button
+        android:id="@+id/galleryButton"
+        android:layout_width="93dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="48dp"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+        android:text="Gallery"
+        android:textColor="@color/sky_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.945"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageButton
+        android:id="@+id/pictureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="36dp"
+        android:alpha="80"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:backgroundTint="@android:color/background_light"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/camera" />
+
+</android.support.constraint.ConstraintLayout>

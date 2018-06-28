@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/history"
+        android:icon="@drawable/book"
+        android:title="History" />
+
+    <item
+        android:id="@+id/add_food"
+        android:icon="@drawable/food"
+        android:title="Add Food" />
+
+    <item
+        android:id="@+id/nutrition_calculator"
+        android:icon="@drawable/calculator"
+        android:title="Macros Calculator" />
+
+</menu>

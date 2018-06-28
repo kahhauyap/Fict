@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Fict</string>
+    <color name="white">#ffffff</color>
+    <color name="black">#111111</color>
+    <color name="sky_blue">#9ae5ee</color>
+    <string name="title_activity_daily_page">DailyPage</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+</resources>
