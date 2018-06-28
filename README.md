@@ -1,4 +1,3 @@
 # Fict
-Fitness &amp; Health Diet Tracker - Android Application
+Fitness &amp; Health Diet Tracker - Mobile Android Application developed in Java with Android Studio.
 
-Mobile Android Application developed in Java with Android Studio.
