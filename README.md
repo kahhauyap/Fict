@@ -4,10 +4,10 @@ Fitness &amp; Health Diet Tracker - Mobile Android Application developed in Java
 
 # Home Page
 https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163729.png
-
 The daily home screen page greets users and acts as a hub for convenient access to all the other features of the app. A daily summary of caloric and nutritional goals, as well as foods eaten are displayed.  
 
 # Visual Recognition
+https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163900.png
 The user has the option to either manually input nutritional information for their dish, or use the Visual Recognition option. This allows the user to take a photo of food, and utilizing IBM Watson's Visual Recognition API return a list of possible classifications for the dish.
 
 # Nutritional Information
