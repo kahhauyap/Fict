@@ -1,10 +1,12 @@
 # Fict
 Fitness &amp; Health Diet Tracker - Mobile Android Application developed in Java with Android Studio.
 
-This app was developed because traditional calorie trackers suffer from the tedious task of having to manually log foods and their nutrition. Fict adds the ability to take a photo and utilizing Visual Recognition classify the dish, and return nutrition information. The goal of the app was to create something useful and simple that we could see ourselves using everyday.
+This app was developed because traditional calorie trackers suffer from the tedious task of having to manually record foods and their nutrition. Fict adds the ability to take a photo of your meal, and use Visual Recognition to classify the dish, and return nutritional information. The goal of the app was to create something useful and simple that we could see ourselves using everyday.
+
+<img src="https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163640.png" width="450" height="790">
 
 # Home Page
-The daily home screen page greets users and acts as a hub for convenient access to all the other features of the app. A daily summary of caloric and nutritional goals, as well as foods eaten are displayed.
+The daily home screen page greets users and acts as a hub for convenient access to all the other features of the app. At the top of the page is the Calories section which displays the calorie goal, calories consumed, and calories remaining. Under it is the the Nutrition section which shows the 3 main macro nutrients: protein, fat, carbohydrates and the user's current weight which can be changed by tapping on the scale icon. Underneath that is a Food section which displays all the meals the user recorded that day. Finally on the bottom there is a task bar for easy navigation to the History, Add Food, and Macros Calculator pages.
 
 <img src="https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163729.png" width="450" height="790">
 
@@ -18,12 +20,12 @@ After the user selects the correct dish, the Nutritionix API is used to return r
 
 <img src="https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163926.png" width="450" height="790">
 
-# Macronutrition Calculator
-Upon first use of the app the user is brought to a macronutrients / If It Fits Your Macros (IIFYM) calculator. The user fills in a few personal details to gauge their fitness needs and select a goal. The numbers are plugged into an IIFYM formula to determine the user's daily caloric and macronutrients intake. This information is then saved into the SQLite database the app will display as goals everyday.
+# Macronutrient Calculator
+Upon first use of the app the user is brought to a macronutrients / "If It Fits Your Macros" (IIFYM) calculator. IIFYM is a widely used dieting plan that allows you to eat any type foods you want, so long as you don't go over your caloric and macronutrient values for the day. The user fills in a few personal details to gauge their fitness needs and select a goal. The numbers are plugged into an IIFYM formula to determine the user's daily caloric and macronutrients intake. This information is then saved into the SQLite database the app will display as goals everyday.
+
 Source: https://healthyeater.com/flexible-dieting-calculator
 
 <img src="https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163756.png" width="450" height="790">
-
 
 # History
 The data for the user's food intake is saved locally on a SQLite database for future access in order to track the user's progression. After selecting an entry, a snapshot of that day's daily home page is brought up so the user can view changes day by day. 
