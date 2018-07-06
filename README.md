@@ -3,7 +3,7 @@ Fitness &amp; Health Diet Tracker - Mobile Android Application developed in Java
 
 
 # Home Page
-![a](https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163729.png){:height="50%" width="50%"}
+![a](https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163729.png){:height="700px" width="400px"}
 https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163729.png
 
 The daily home screen page greets users and acts as a hub for convenient access to all the other features of the app. A daily summary of caloric and nutritional goals, as well as foods eaten are displayed.  
