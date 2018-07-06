@@ -20,5 +20,4 @@ After the user selects the correct dish, the Nutritionix API is used to return r
 # History
 The data for the user's food intake is saved locally on a SQLite database for future access in order to track the user's progression. After selecting an entry, a snapshot of that day's daily home page is brought up so the user can view changes day by day.
 
-<img src="https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163947.png" width="450" height="790">
-<img src="https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-164014.png" width="450" height="790">
+<img src="https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163947.png" width="450" height="790"> <img src="https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-164014.png" width="450" height="790">
