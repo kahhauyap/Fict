@@ -18,6 +18,13 @@ After the user selects the correct dish, the Nutritionix API is used to return r
 
 <img src="https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163926.png" width="450" height="790">
 
+# Macronutrition Calculator
+Upon first use of the app the user is brought to a macronutrients / If It Fits Your Macros (IIFYM) calculator. The user fills in a few personal details to gauge their fitness needs and select a goal. The numbers are plugged into an IIFYM formula to determine the user's daily caloric and macronutrients intake. This information is then saved into the SQLite database the app will display as goals everyday.
+Source: https://healthyeater.com/flexible-dieting-calculator
+
+<img src="https://github.com/kahhauyap/Fict/blob/master/screenshots/Screenshot_20180516-163756.png" width="450" height="790">
+
+
 # History
 The data for the user's food intake is saved locally on a SQLite database for future access in order to track the user's progression. After selecting an entry, a snapshot of that day's daily home page is brought up so the user can view changes day by day. 
 
